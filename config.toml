@@ -1,0 +1,12 @@
+[repository]
+# The name of the github owner, must be in lower-case letters
+REGISTRY_NAME = "efim.gorbenko@gmail.com"
+
+# The name of this Pieces repository
+REPOSITORY_NAME = "test-piece"
+
+# The label of this Pieces repository, as it will appear in Domino GUI
+REPOSITORY_LABEL = "test-piece"
+
+# The version of this Pieces release
+VERSION = "0.1.0"
