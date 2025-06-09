@@ -19,5 +19,7 @@ class TestPiece(BasePiece):
             for row in csv_reader:
                 data_list.append(row)
 
+        print(data_list)
+
         # Return list of items in csv
         return OutputModel(output_value=data_list)

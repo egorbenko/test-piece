@@ -1,24 +1,14 @@
 {
-    "name": "ExampleSineWavePiece",
-    "description": "This is an example of a piece that uses Dockerfile for dependencies.",
+    "name": "TestPiece",
+    "description": "This is an example of a piece.",
     "dependency": {
-        "dockerfile": "Dockerfile_1"
-    },
-    "container_resources": {
-        "requests": {
-            "cpu": 100,
-            "memory": 128
-        },
-        "limits": {
-            "cpu": 500,
-            "memory": 512
-        }
+        "requirements_file": "requirements_0.txt"
     },
     "tags": [
         "Example"
     ],
     "style": {
-        "node_label": "Example Sine Piece",
+        "node_label": "Example Test Piece",
         "icon_class_name": "fa-solid:database"
     }
 }
